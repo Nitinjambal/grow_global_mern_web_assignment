@@ -13,7 +13,7 @@
 ## Step 7:   npm run dev
 ## Step 8: open this URL to check the website:-  http://localhost:5173/
 
-# Note:- Sometimes form can take time to enable the button to data coming from the real server so please REFRESH the page once when website start
+# Note:- Sometimes form can take time to enable the sign-in/ sign-up button because data comes from the real server so please REFRESH the page once or wait for some time to get the button enable, when the website start
 
 #Features
 * Read Post/ Get Post
