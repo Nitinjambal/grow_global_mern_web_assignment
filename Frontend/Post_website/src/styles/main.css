@@ -1,0 +1,79 @@
+.form_container {
+  width: 30%;
+}
+
+@media screen and (max-width: 1000px) {
+  .form_container {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .form_container {
+    width: 65%;
+  }
+}
+
+.main-navbar {
+  background-color: burlywood;
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  padding: 1rem;
+  text-decoration: none;
+  color: white;
+  justify-content: space-between;
+}
+.main-navbar > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  font-weight: bolder;
+  color: black;
+}
+
+.right-nav {
+  text-decoration: none;
+  color: #ffffff;
+}
+right-nav > ul > Link {
+  align-items: center;
+  text-decoration: none;
+  color: white;
+ 
+}
+
+.logout-btn{
+  text-align: center;
+  border: 1px solid rgb(24, 24, 223);
+}
+
+
+
+.mainDiv {
+  width: 90%;
+  margin: auto;
+  margin-top: 3rem;
+ align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.subDiv {
+  box-shadow: rgba(63, 133, 214, 0.3) 0px 0px 0px 3px;
+  text-align: center;
+  height: 20vh;
+}
+
+.postButton > button {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+.allPosts{
+  margin-top: 4rem;
+  text-align: center;
+}
