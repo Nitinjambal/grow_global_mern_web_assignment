@@ -36,7 +36,7 @@ function AppNavbar() {
       <div className="right-nav">
         <ul>
           {" "}
-          <Link to="/">Home</Link>
+          <Link to="/">ALL POSTS</Link>
         </ul>
 
         {isAuth ? (
